@@ -1,0 +1,115 @@
+*{
+    font-family: Playfair Display;
+}
+
+html, body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* หัวข้อ */
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 4.2%;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header > a {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.header > a > img {
+    position: relative;
+    width: 20%;
+    height: auto;
+    margin-right: 1%;
+    vertical-align: middle;
+
+}
+
+.header > a > h1 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-size: 2rem; /* ใช้หน่วย rem เพื่อความยืดหยุ่น */
+    vertical-align: middle;
+}
+
+
+/* content index */
+.content{
+    position: relative;
+    top: -0.5%;
+    width: 100%;
+    height: 77%;
+}
+
+
+/* content photo-descrip */
+.descrip-container{
+    position: relative;
+}
+.h2-d{
+    text-align: left;
+    padding-left: 25%;
+    width: 40%;
+}
+.img-d{
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    height: auto;
+    width: 25%;
+    border: 5px solid black;
+    border-radius: 5px ;
+}
+.p-des{
+    margin-left: 13%;
+    width: 48%;
+    text-indent: 10%;
+    font-size: 19px;
+}
+.a-d{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50%;
+    padding: 10px 20px;
+    background-color: #59595a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem; /* ใช้หน่วย rem เพื่อความยืดหยุ่น */
+}
+
+/* footer */
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(46, 46, 46);
+}
+.footer > i {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
